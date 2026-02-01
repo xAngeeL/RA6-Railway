@@ -18,11 +18,12 @@ $config->set('viewsFolder', 'views/');
 //$config->set('dbpass', 'root');
 
 $config->set('dbhost', 'db'); // Cambiar 'db' por 'localhost' si se usa XAMPP
-$config->set('dbname', 'railway');
+$config->set('dbname', 'amigo_invisible');
 $config->set('dbuser', 'root');
 $config->set('dbpass', 'lteuylEchIFhtTtGYBsIEPznIbkkHkSF');
 
 //mysql://root:lteuylEchIFhtTtGYBsIEPznIbkkHkSF@metro.proxy.rlwy.net:37830/railway
 
 ?>
+
 
