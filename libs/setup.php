@@ -17,13 +17,15 @@ $config->set('viewsFolder', 'views/');
 //$config->set('dbuser', 'root');
 //$config->set('dbpass', 'root');
 
-$config->set('dbhost', 'db'); // Cambiar 'db' por 'localhost' si se usa XAMPP
-$config->set('dbname', 'amigo_invisible');
-$config->set('dbuser', 'root');
-$config->set('dbpass', 'lteuylEchIFhtTtGYBsIEPznIbkkHkSF');
+$config->set('dbhost', getenv('MYSQLHOST'));
+$config->set('dbname', getenv('MYSQLDATABASE'));   // amigo_invisible
+$config->set('dbuser', getenv('MYSQLUSER'));
+$config->set('dbpass', getenv('MYSQLPASSWORD'));
+$config->set('dbport', getenv('MYSQLPORT'));       // si tu SPDO lo usa
 
 //mysql://root:lteuylEchIFhtTtGYBsIEPznIbkkHkSF@metro.proxy.rlwy.net:37830/railway
 
 ?>
+
 
 
