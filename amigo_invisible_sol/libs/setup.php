@@ -22,4 +22,7 @@ $config->set('dbname', 'railway');
 $config->set('dbuser', 'root');
 $config->set('dbpass', 'lteuylEchIFhtTtGYBsIEPznIbkkHkSF');
 
+//mysql://root:lteuylEchIFhtTtGYBsIEPznIbkkHkSF@metro.proxy.rlwy.net:37830/railway
+
 ?>
+
