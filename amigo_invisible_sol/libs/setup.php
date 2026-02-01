@@ -12,8 +12,14 @@ $config->set('modelsFolder', 'models/');
 $config->set('viewsFolder', 'views/');
 
 // Parámetros de conexión a la BD
+//$config->set('dbhost', 'db'); // Cambiar 'db' por 'localhost' si se usa XAMPP
+//$config->set('dbname', 'amigo_invisible');
+//$config->set('dbuser', 'root');
+//$config->set('dbpass', 'root');
+
 $config->set('dbhost', 'db'); // Cambiar 'db' por 'localhost' si se usa XAMPP
-$config->set('dbname', 'amigo_invisible');
+$config->set('dbname', 'railway');
 $config->set('dbuser', 'root');
-$config->set('dbpass', 'root');
+$config->set('dbpass', 'lteuylEchIFhtTtGYBsIEPznIbkkHkSF');
+
 ?>
