@@ -1,8 +1,0 @@
-{
-  "build": {
-    "builder": "DOCKERFILE"
-  },
-  "deploy": {
-    "startCommand": "frankenphp run --config /etc/caddy/Caddyfile --adapter caddyfile"
-  }
-}
