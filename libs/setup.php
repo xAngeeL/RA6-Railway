@@ -18,14 +18,16 @@ $config->set('viewsFolder', 'views/');
 //$config->set('dbpass', 'root');
 
 $config->set('dbhost', getenv('MYSQLHOST'));
-$config->set('dbname', getenv('MYSQLDATABASE'));   // amigo_invisible
+$config->set('dbport', getenv('MYSQLPORT'));
+$config->set('dbname', 'amigo_invisible'); // o getenv('MYSQLDATABASE')
 $config->set('dbuser', getenv('MYSQLUSER'));
 $config->set('dbpass', getenv('MYSQLPASSWORD'));
-$config->set('dbport', getenv('MYSQLPORT'));       // si tu SPDO lo usa
+
 
 //mysql://root:lteuylEchIFhtTtGYBsIEPznIbkkHkSF@metro.proxy.rlwy.net:37830/railway
 
 ?>
+
 
 
 
